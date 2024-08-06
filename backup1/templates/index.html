@@ -1,0 +1,13 @@
+<h1>project is running</h1>
+<table align="center" border="1px">
+{%for i in data%}
+<tr>
+    <td>{{i.id}}</td>
+    <td>{{i.name}}</td>
+    <td>{{i.email}}</td>
+    <td>{{i.sal}}</td>
+    <td><img src="{{i.img.url}}" height="100px" width="100px" /></td>
+
+<tr>
+{%endfor%}
+</table>
